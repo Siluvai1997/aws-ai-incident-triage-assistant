@@ -1,0 +1,38 @@
+{
+  "Application outage": [
+    "Check service health dashboard",
+    "Review recent deployment history",
+    "Inspect upstream dependency health",
+    "Rollback the latest release if required"
+  ],
+  "Kubernetes": [
+    "Check pod status and restart count",
+    "Review recent events and node pressure",
+    "Verify service and ingress connectivity",
+    "Inspect CPU and memory limits"
+  ],
+  "Networking": [
+    "Validate DNS resolution",
+    "Check load balancer and target health",
+    "Inspect security groups and routing",
+    "Review recent network changes"
+  ],
+  "Infrastructure": [
+    "Review infrastructure health metrics",
+    "Check recent changes in compute or storage",
+    "Validate dependency availability",
+    "Escalate if underlying platform degradation persists"
+  ],
+  "CI-CD": [
+    "Review the latest pipeline execution",
+    "Inspect build and deployment logs",
+    "Validate artifact integrity",
+    "Pause further deployments until root cause is identified"
+  ],
+  "Authentication": [
+    "Verify identity provider status",
+    "Check certificate and token configuration",
+    "Validate callback and federation settings",
+    "Review recent authentication configuration changes"
+  ]
+}
