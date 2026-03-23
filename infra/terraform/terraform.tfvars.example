@@ -1,0 +1,4 @@
+aws_region           = "us-east-1"
+project_name         = "aws-ai-incident-triage-assistant"
+lambda_function_name = "incident-triage-handler"
+bedrock_model_id     = "amazon.nova-lite-v1:0"

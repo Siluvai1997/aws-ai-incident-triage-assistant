@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+.terraform.lock.hcl
+*.zip
+.DS_Store
+.streamlit/secrets.toml

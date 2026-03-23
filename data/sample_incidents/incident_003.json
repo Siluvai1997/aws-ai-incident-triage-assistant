@@ -1,0 +1,9 @@
+{
+  "incident_id": "INC-003",
+  "source": "Support ticket",
+  "title": "Users unable to authenticate through SSO",
+  "description": "Multiple users report login failures after an IdP certificate rotation.",
+  "raw_logs": "invalid signature; token validation failed; auth callback rejected",
+  "expected_category": "Authentication",
+  "expected_severity": "Critical"
+}

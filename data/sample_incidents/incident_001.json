@@ -1,0 +1,9 @@
+{
+  "incident_id": "INC-001",
+  "source": "CloudWatch",
+  "title": "Elevated 5xx error rate in payment API",
+  "description": "5xx errors exceeded threshold for 12 minutes after the latest deployment. Users report checkout failures.",
+  "raw_logs": "upstream timeout; connection reset by peer; pod restarted twice",
+  "expected_category": "Application outage",
+  "expected_severity": "High"
+}

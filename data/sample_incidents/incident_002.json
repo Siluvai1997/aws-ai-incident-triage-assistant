@@ -1,0 +1,9 @@
+{
+  "incident_id": "INC-002",
+  "source": "Prometheus",
+  "title": "Kubernetes pod crash loop in order service",
+  "description": "Order service pods entered CrashLoopBackOff after a configuration change.",
+  "raw_logs": "config parse failed; missing environment variable; pod restarted 8 times",
+  "expected_category": "Kubernetes",
+  "expected_severity": "High"
+}
